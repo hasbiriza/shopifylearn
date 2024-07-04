@@ -110,6 +110,7 @@
               image_shape: section.settings.image_shape,
               show_secondary_image: section.settings.show_secondary_image,
               show_vendor: section.settings.show_vendor,
+              show_price: section.settings.show_price,
               show_rating: section.settings.show_rating,
               skip_styles: skip_card_product_styles,
               section_id: section.id,
@@ -411,6 +412,12 @@
       "id": "show_vendor",
       "default": false,
       "label": "t:sections.featured-collection.settings.show_vendor.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_price",
+      "default": true,
+      "label": "Show Price"
     },
     {
       "type": "checkbox",

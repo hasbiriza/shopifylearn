@@ -3,13 +3,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {
@@ -17,6 +10,11 @@
         },
         "price": {
           "type": "price",
+          "settings": {
+          }
+        },
+        "description_k94PUQ": {
+          "type": "description",
           "settings": {
           }
         },
@@ -39,27 +37,51 @@
             "show_gift_card_recipient": true
           }
         },
-        "description": {
-          "type": "description",
+        "collapsible_tab_Y6hFTn": {
+          "type": "collapsible_tab",
           "settings": {
+            "heading": "Spesifikasi",
+            "icon": "leather",
+            "content": "<ul><li>Feel Medium <\/li><li>FirmTebal 27cm<\/li><li>Menggunakan Firm Base Foam yang memberikan tingkat kekerasaan ideal pada kasur<\/li><li>High Density Busa Support Foam<\/li><li>Kain Ultra Soft Knitting Fabric yang lembut & nyaman<\/li><li>Lapisan Plushtop yang memberikan kenyamanan optimal & mengurangi tekanan<\/li><li>Pocket Spring<\/li><\/ul>",
+            "page": ""
           }
         },
-        "share": {
+        "collapsible_tab_amJTTr": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Ukuran",
+            "icon": "ruler",
+            "content": "",
+            "page": ""
+          }
+        },
+        "collapsible_tab_iUytV7": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Ukuran",
+            "icon": "heart",
+            "content": "<p>Panduan Perawatan<\/p>",
+            "page": ""
+          }
+        },
+        "share_dGChyE": {
           "type": "share",
           "settings": {
-            "share_label": "Share"
+            "share_label": "Bagikan"
           }
         }
       },
       "block_order": [
-        "vendor",
         "title",
         "price",
+        "description_k94PUQ",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "description",
-        "share"
+        "collapsible_tab_Y6hFTn",
+        "collapsible_tab_amJTTr",
+        "collapsible_tab_iUytV7",
+        "share_dGChyE"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -67,7 +89,7 @@
         "media_size": "large",
         "constrain_to_viewport": true,
         "media_fit": "contain",
-        "gallery_layout": "stacked",
+        "gallery_layout": "thumbnail",
         "media_position": "left",
         "image_zoom": "lightbox",
         "mobile_thumbnails": "hide",
@@ -80,12 +102,12 @@
     "related-products": {
       "type": "related-products",
       "settings": {
-        "heading": "You may also like",
+        "heading": "<strong>REKOMENDASI<\/strong>",
         "heading_size": "h2",
         "products_to_show": 4,
         "columns_desktop": 4,
         "color_scheme": "scheme-1",
-        "image_ratio": "square",
+        "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": true,
         "show_vendor": false,

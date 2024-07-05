@@ -13,18 +13,6 @@
           "settings": {
           }
         },
-        "description_k94PUQ": {
-          "type": "description",
-          "settings": {
-          }
-        },
-        "variant_picker": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button",
-            "swatch_shape": "circle"
-          }
-        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
@@ -35,6 +23,18 @@
           "settings": {
             "show_dynamic_checkout": true,
             "show_gift_card_recipient": true
+          }
+        },
+        "description_k94PUQ": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
           }
         },
         "collapsible_tab_Y6hFTn": {
@@ -74,14 +74,19 @@
       "block_order": [
         "title",
         "price",
-        "description_k94PUQ",
-        "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "description_k94PUQ",
+        "variant_picker",
         "collapsible_tab_Y6hFTn",
         "collapsible_tab_amJTTr",
         "collapsible_tab_iUytV7",
         "share_dGChyE"
+      ],
+      "custom_css": [
+        "h1 {font-size: 30px;}",
+        "div.product__description.rte.quick-add-hidden p {font-size: 16px; text-align: justify;}",
+        "div.hopify-payment-button__button button{background-color:blue;}"
       ],
       "settings": {
         "enable_sticky_info": true,

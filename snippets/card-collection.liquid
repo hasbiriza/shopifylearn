@@ -113,7 +113,7 @@
       {%- endif -%}
     </div>
     {%- if card_collection != blank and card_style == 'card' or card_collection.featured_image -%}
-      <div class="card__content">
+      {% comment %} <div class="card__content">
         <div class="card__information">
           <h3 class="card__heading">
             <a
@@ -141,10 +141,10 @@
             </p>
           {%- endif -%}
         </div>
-      </div>
+      </div> {% endcomment %}
     {%- endif -%}
     {%- if card_collection == blank -%}
-      <div class="card__content">
+      {% comment %} <div class="card__content">
         <div class="card__information">
           <h3 class="card__heading card__heading--placeholder">
             <a role="link" aria-disabled="true" class="full-unstyled-link">
@@ -153,7 +153,7 @@
             </a>
           </h3>
         </div>
-      </div>
+      </div> {% endcomment %}
     {%- endif -%}
   </div>
 </div>

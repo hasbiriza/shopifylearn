@@ -1,6 +1,6 @@
 <section class="features">
-    <div class="container">
-      <div class="">
+    <div class="container border border-primary">
+      <div class="border border-danger d-flex flex-row">
         {% for i in (1..5) %}
           {% assign image_var = 'feature_image_' | append: i %}
           {% assign title_var = 'feature_title_' | append: i %}
@@ -10,14 +10,14 @@
           {% assign text = section.settings[text_var] %}
           {% assign shape = section.settings.image_shape %}
   
-          <div class="col-md-2 feature-item border border-danger">
+          <div class="col-md-2 feature-item ">
             <div class="feature ">
               {% if image %}
                 <div class="  image-wrapper {% if shape == 'circle' %}circle{% elsif shape == 'parallelogram' %}parallelogram{% endif %}">
                   <img src="{{ image | image_url: '200x200' }}" width="200" height="200" alt="{{ title }}">
                 </div>
               {% endif %}
-              <h3 style="font-size: {{ section.settings.font_size }}px;">{{ title }}</h3>
+              <h3 style=" border border-danger font-size: {{ section.settings.font_size }}px;">{{ title }}</h3>
               {% if text != blank %}
                 <p style="font-size: {{ section.settings.font_size | minus: 2 }}px;">{{ text }}</p>
               {% endif %}
@@ -184,7 +184,7 @@
     ],
     "presets": [
       {
-        "name": "new custom"
+        "name": "new custom222"
       }
     ]
   }

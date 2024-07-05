@@ -22,25 +22,25 @@
         "featured_collection_NiCQDF": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "kasur-pocket"
           }
         },
         "featured_collection_thNk7y": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "kasur-busa"
           }
         },
         "featured_collection_MQMQXT": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "kasur-lipat"
           }
         },
-        "featured_collection_A6NKN8": {
+        "featured_collection_6rJtRa": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "kasur-collection"
           }
         }
       },
@@ -48,12 +48,12 @@
         "featured_collection_NiCQDF",
         "featured_collection_thNk7y",
         "featured_collection_MQMQXT",
-        "featured_collection_A6NKN8"
+        "featured_collection_6rJtRa"
       ],
       "settings": {
-        "title": "Shop By Category",
-        "heading_size": "h1",
-        "image_ratio": "square",
+        "title": "<strong>Shop By Category<\/strong>",
+        "heading_size": "h2",
+        "image_ratio": "adapt",
         "columns_desktop": 4,
         "color_scheme": "",
         "show_view_all": false,
@@ -79,32 +79,24 @@
             "text": "<p><strong>Dapatkan gratis ongkir Jawa & Bali, bonus bantal, dan subsidi ongkir sampai Rp. 150.000<\/strong><\/p>",
             "text_style": "body"
           }
-        },
-        "button_TRb6Yx": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
         }
       },
       "block_order": [
         "heading_tPeCz4",
-        "text_7QWR73",
-        "button_TRb6Yx"
+        "text_7QWR73"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/Group_17.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
-        "desktop_content_position": "top",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "section_color_scheme": "",
         "color_scheme": "",
         "image_behavior": "none",
-        "mobile_content_alignment": "left",
+        "mobile_content_alignment": "center",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -129,6 +121,7 @@
         "image_shape": "default",
         "show_secondary_image": true,
         "show_vendor": false,
+        "show_compare_at_price": false,
         "show_price": true,
         "show_rating": false,
         "quick_add": "none",
@@ -161,18 +154,97 @@
         "text_MLfQHe"
       ],
       "settings": {
-        "height": "adapt",
+        "image": "shopify:\/\/shop_images\/Group_17.png",
+        "height": "medium",
         "desktop_image_width": "medium",
         "layout": "image_first",
-        "desktop_content_position": "top",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "section_color_scheme": "",
         "color_scheme": "",
         "image_behavior": "none",
-        "mobile_content_alignment": "left",
+        "mobile_content_alignment": "center",
+        "padding_top": 4,
+        "padding_bottom": 32
+      }
+    },
+    "multicolumn_kwjnh6": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_JqdxEL": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_9.png",
+            "title": "Free Shipping Jawa & Bali",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_PWXrtU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_8.png",
+            "title": "Free Pillow",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_HJyPGX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_10.png",
+            "title": "High Packaging Quality",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_imgz4r": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_11.png",
+            "title": "On Time Delivery",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_3DUx87": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_11.png",
+            "title": "On Time Delivery",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_JqdxEL",
+        "column_PWXrtU",
+        "column_HJyPGX",
+        "column_imgz4r",
+        "column_3DUx87"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 12
       }
     },
     "image_banner_3ypDKy": {
@@ -190,23 +262,6 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
-    },
-    "newcustom_YzP3gg": {
-      "type": "newcustom",
-      "settings": {
-        "feature_title_1": "Free Shipping",
-        "feature_text_1": "Jawa & Bali",
-        "feature_title_2": "Free Pillow",
-        "feature_text_2": "Get a free pillow with every order.",
-        "feature_title_3": "High Packaging Quality",
-        "feature_text_3": "Our packaging ensures product safety.",
-        "feature_title_4": "On Time Delivery",
-        "feature_text_4": "We deliver on time, every time.",
-        "feature_title_5": "100 Night Trial",
-        "feature_text_5": "Try our product for 100 nights risk-free.",
-        "font_size": 16,
-        "image_shape": "default"
-      }
     }
   },
   "order": [
@@ -215,7 +270,7 @@
     "image_with_text_6PYQ7N",
     "featured_collection_RDrr78",
     "image_with_text_976ah6",
-    "image_banner_3ypDKy",
-    "newcustom_YzP3gg"
+    "multicolumn_kwjnh6",
+    "image_banner_3ypDKy"
   ]
 }

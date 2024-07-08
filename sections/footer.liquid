@@ -68,6 +68,7 @@
               data-cascade
             {% endif %}
           >
+            {% comment %} Bagian Griddd permenu {% endcomment %}
             {%- for block in section.blocks -%}
               <div
                 class="footer-block grid__item{% if block.type == 'link_list' %} footer-block--menu{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
@@ -76,7 +77,11 @@
                   data-cascade
                   style="--animation-order: {{ forloop.index }};"
                 {% endif %}
+
+                
               >
+
+                {% comment %} Heading di menunya {% endcomment %}
                 {%- if block.settings.heading != blank -%}
                   <h2 class="footer-block__heading inline-richtext">{{- block.settings.heading -}}</h2>
                 {%- endif -%}
@@ -88,6 +93,8 @@
                     <div class="footer-block__details-content rte">
                       {{ block.settings.subtext }}
                     </div>
+
+                    {% comment %} List daftar dalam menu {% endcomment %}
                   {%- when 'link_list' -%}
                     {%- if block.settings.menu != blank -%}
                       <ul class="footer-block__details-content list-unstyled">

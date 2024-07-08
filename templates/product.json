@@ -13,13 +13,6 @@
           "settings": {
           }
         },
-        "text_PqnGkC": {
-          "type": "text",
-          "settings": {
-            "text": "Uniland Sleep membawa inovasi & kualitas tinggi yang direalisasikan pada Pocket Original Plushtop dengan menggunakan lapisan plushtop untuk memberikan kelembutan lebih optimal. Di lengkapi dengan Firm Base Foam dalam memberikan sensasi kekerasaan ideal pada kasur. Semua kenyamanan Pocket Original Plushtop dapat dirasakan dengan harga terjangkau dan siap memanjakan tidurmu lebih berkesan.",
-            "text_style": "body"
-          }
-        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
@@ -36,6 +29,13 @@
           "settings": {
             "show_dynamic_checkout": true,
             "show_gift_card_recipient": true
+          }
+        },
+        "text_PqnGkC": {
+          "type": "text",
+          "settings": {
+            "text": "Uniland Sleep membawa inovasi & kualitas tinggi yang direalisasikan pada Pocket Original Plushtop dengan menggunakan lapisan plushtop untuk memberikan kelembutan lebih optimal. Di lengkapi dengan Firm Base Foam dalam memberikan sensasi kekerasaan ideal pada kasur. Semua kenyamanan Pocket Original Plushtop dapat dirasakan dengan harga terjangkau dan siap memanjakan tidurmu lebih berkesan.",
+            "text_style": "body"
           }
         },
         "collapsible_tab_Y6hFTn": {
@@ -75,10 +75,10 @@
       "block_order": [
         "title",
         "price",
-        "text_PqnGkC",
         "quantity_selector",
         "description_4iim8t",
         "buy_buttons",
+        "text_PqnGkC",
         "collapsible_tab_Y6hFTn",
         "collapsible_tab_amJTTr",
         "collapsible_tab_iUytV7",
@@ -89,7 +89,8 @@
         "div.product__description.rte.quick-add-hidden p {font-size: 16px; text-align: justify;}",
         "div.hopify-payment-button__button button {background-color: blue;}",
         "span.badge.price__badge-sale {display: none;}",
-        "button.shopify-payment-button__button {background-color: #113c66;}"
+        "button.shopify-payment-button__button {background-color: #113c66;}",
+        "p.product__text.inline-richtext {color: #121212; text-align : justify;}"
       ],
       "settings": {
         "enable_sticky_info": true,
